@@ -1,0 +1,488 @@
+/* =============== Start navbar =============== */
+nav {
+    background: #fff;
+    padding: 20px 0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #111;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 0 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    border: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    top: 100%;
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0%;
+    top: 100%;
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    top: 100%;
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+}
+
+.dropdown-menu {
+    background: #000;
+    border: none;
+}
+
+.dropdown-menu a {
+    color: #fff;
+}
+.icons_chart {
+    width: 150px;
+}
+
+.icons_chart i,
+.icons_chart span {
+    font-size: 20px;
+}
+
+.icons_chart i:hover {
+    font-weight: 900;
+    color: #e53637;
+    cursor: pointer;
+}
+
+.icons_chart span {
+    font-weight: 600;
+}
+/* =============== End navbar =============== */
+/* =============== Start header =============== */
+header {
+    padding: 40px 0;
+    background: #f3f2ee;
+}
+
+header h2 {
+    color: #000;
+}
+
+header .page_link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header .page_link span {
+    color: #b7b7b7;
+}
+/* =============== End header =============== */
+/* =============== Start main =============== */
+main {
+    padding: 100px 0 0px;
+}
+
+.main_img img {
+    width: 100%;
+}
+
+.total_info {
+    padding: 60px 0;
+}
+
+.total_info .our_info {
+    padding: 0;
+}
+
+.total_info .our_info p {
+    width: 90%;
+}
+/* =============== End main =============== */
+/* =============== Start our_client =============== */
+.our_client {
+    background: #F3F2EE;
+    overflow: hidden;
+}
+
+.our_client .total_author_data {
+    height: 100%;
+}
+
+.our_client .total_author_data p:first-child {
+    color: #111111;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.our_client .total_author_data p:first-child::before {
+    position: absolute;
+    content: "**";
+    color: #e53637;
+    font-size: 70px;
+    top: -70px;
+    left: 45%;
+}
+
+.our_client .author_info img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.our_client .author_info .name h3 {
+    font-size: 20px;
+    margin: 10px 0 -2px;
+}   
+
+.our_client .author_info .name p {
+    font-size: 20px;
+    color: #b7b7b7;
+}   
+/* =============== End our_client =============== */
+/* =============== Start counts =============== */
+.counts {
+    padding: 100px 0 0;
+}
+
+.my_counts {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #d4d3d3;
+}
+
+.my_counts .our_count {
+    padding: 0;
+}
+
+.counts .our_count h2 {
+    font-size: 60px;
+    font-weight: 650;
+}
+
+.counts .our_count span {
+    font-size: 20px;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #3d3d3d;
+}
+/* =============== End counts =============== */
+/* =============== Start our_team =============== */
+.our_team {
+    padding: 70px 0;
+}
+
+.our_team .team_header span {
+    color: #e53637;
+    font-size: 18px;
+}
+
+.our_team .team_header h2 {
+    font-size: 35px;
+    margin: 10px 0 40px;
+}
+
+.our_team .member {
+    border: none;
+}
+
+.our_team .member .card-body {
+    padding-left: 0;
+}
+
+.our_team .member .card-body h3 {
+    font-size: 23px;
+}
+
+.our_team .member .card-body p {
+    color: #b7b7b7;
+}
+/* =============== End our_team =============== */
+/* =============== Start our_partners =============== */
+.our_partners {
+    padding-bottom: 60px;
+}
+
+.our_partners .partners_header span {
+    color: #e53637;
+    font-size: 18px;
+}
+
+.our_partners .partners_header h2 {
+    font-size: 35px;
+    margin: 10px 0 40px;
+}
+
+.partners_imgs img {
+    padding: 30px 110px;
+}
+
+/* =============== End our_partners =============== */
+/* =============== Start Footer =============== */
+footer {
+    padding: 70px 0 20px;
+    background: #000;
+}
+
+footer .footer_data img:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+footer .footer_data .payment {
+    margin-top: 50px;
+}
+
+footer .footer_data p {
+    color: #b7b7b7; 
+}
+
+footer .footer_data:nth-child(1) p {
+    width: 80%;
+}
+
+footer .footer_data h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer .footer_data ul {
+    padding: 0;
+}
+
+footer .footer_data ul a {
+    color: #b7b7b7;
+    text-decoration: none;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+footer .footer_data ul a::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0%;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+footer .footer_data ul a:hover::after {
+    width: 100%;
+}
+
+footer .footer_data .inputField {
+    position: relative;
+}
+
+footer .footer_data input {
+    margin-top: 50px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+footer .footer_data i {
+    position: absolute;
+    color: #b7b7b7;
+    font-size: 20px;
+    margin: 55px 0 0 -40px;
+}
+
+footer .copyRightFooter {
+    padding-top: 20px;
+    border-top: 0.2px solid #b7b7b7;
+}
+
+footer .copyRightFooter p {
+    color: #b7b7b7;
+}
+
+footer .copyRightFooter span,
+footer .copyRightFooter i {
+    color: #e53637;
+}
+/* =============== End Footer =============== */
+/* =====#####=====#####===== Start Responsive media queries =====#####=====#####===== */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    /* =============== Start our_partners =============== */
+    .partners_imgs img {
+        padding: 30px 90px;
+    }
+    /* =============== End our_partners =============== */
+    /* =============== Start Footer =============== */
+    footer {
+        padding: 60px 0 20px;
+    }
+
+    footer .footer_data ul a {
+        font-size: 14px;
+    }
+    /* =============== End Footer =============== */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    /* =============== Start navbar =============== */
+    nav {
+        padding: 10px 20px !important;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        margin-top: -10px;
+    }
+
+    .navbar-brand img {
+        height: 20px;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #000;
+    }
+
+    .navbar-collapse {
+        padding-left: 20px;
+    }
+
+    .navbar-collapse form {
+        padding-left: 30px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link.active::after {
+        width: 30%;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover::after{
+        width: 30%;
+    }
+    /* =============== End navbar =============== */
+    /* =============== Start counts =============== */
+    .counts .our_count h2 {
+        font-size: 45px;
+    }
+
+    .counts .our_count span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    /* =============== End counts =============== */
+    /* =============== Start our_partners =============== */
+     .partners_imgs img {
+        padding: 30px 50px;
+    }
+    /* =============== End our_partners =============== */
+    /* =============== Start Footer =============== */
+    footer .footer_data .payment {
+        margin-bottom: 30px;
+    }
+
+    footer .footer_data:nth-child(1) p {
+        width: 100%;
+    }
+
+    footer .footer_data ul a {
+        font-size: 17px;
+    }
+    /* =============== End Footer =============== */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    /* =============== Start our_client =============== */
+    .opnion_left {
+        padding: 120px 0 80px;
+    } 
+    /* =============== End our_client =============== */
+    /* =============== Start our_partners =============== */
+    .partners_imgs img {
+        padding: 10px 100px;
+    }
+    /* =============== End our_partners =============== */
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* =============== Start main =============== */
+    main {
+        padding: 100px 0 0px;
+    }
+
+    .main_img img {
+        width: 100%;
+    }
+
+    .total_info {
+        padding: 60px 0;
+    }
+
+    .total_info .our_info {
+        padding: 0 20px;
+    }
+
+    .total_info .our_info p {
+        width: 90%;
+    }
+    /* =============== End main =============== */
+    /* =============== Start our_client =============== */
+    .our_client .opnion_right {
+        display: none;
+    }
+    /* =============== End our_client =============== */
+    /* =============== Start counts =============== */
+    .my_counts .our_count {
+        justify-content: space-around;
+    }
+
+    .counts .our_count h2 {
+        margin: 10px 20px;
+    }   
+    
+    .counts .our_count span {
+        margin: 25px 40px;
+    } 
+    /* =============== End counts =============== */
+    /* =============== Start our_partners =============== */
+    .partners_imgs img {
+        padding: 10px 17%;
+    }
+    /* =============== End our_partners =============== */
+}
+
+
+
+
+
+

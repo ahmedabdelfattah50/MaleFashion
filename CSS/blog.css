@@ -1,0 +1,422 @@
+/* =============== Start navbar =============== */
+nav {
+    background: #fff;
+    padding: 20px 0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #111;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 0 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    border: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    top: 100%;
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0%;
+    top: 100%;
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    top: 100%;
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+}
+
+.dropdown-menu {
+    background: #000;
+    border: none;
+}
+
+.dropdown-menu a {
+    color: #fff;
+}
+.icons_chart {
+    width: 150px;
+}
+
+.icons_chart i,
+.icons_chart span {
+    font-size: 20px;
+}
+
+.icons_chart i:hover {
+    font-weight: 900;
+    color: #e53637;
+    cursor: pointer;
+}
+
+.icons_chart span {
+    font-weight: 600;
+}
+/* =============== End navbar =============== */
+/* =============== Start main =============== */
+
+main {
+    padding: 150px 0;
+    background-image: url(../images/breadcrumb-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main h1 {
+    color: #fff;
+    font-size: 50px;
+}
+/* =============== End main =============== */
+/* =============== Start New Trends =============== */
+.new_trends {
+    padding: 100px 0 60px;
+}
+
+.trendsHeader p {
+    color: #e53637;
+    font-weight: 600;
+}
+
+.trendsHeader h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.new_trends .trend_section .trend_data {
+    background: #fff;
+    padding: 30px 40px;
+    margin-right: 20px;
+    margin: 230px 40px 20px 20px;
+}
+
+.new_trends .trend_section .trend_data h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.new_trends .trend_section .trend_data a {
+    color: #000;
+    cursor: pointer;
+    letter-spacing: 5px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.new_trends .trend_section .trend_data a::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #000;
+    top: 100%;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.new_trends .trend_section .trend_data:hover a::after {
+    width: 35%;
+    background: #e53637;
+}
+
+.new_trends .trend_section:nth-child(1) {
+    background-image: url("../images/blog-1.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(2) {
+    background-image: url("../images/blog-2.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(3) {
+    background-image: url("../images/blog-3.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(4) {
+    background-image: url("../images/blog-4.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(5) {
+    background-image: url("../images/blog-5.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(6) {
+    background-image: url("../images/blog-6.jpg");
+    background-repeat: no-repeat;
+}
+
+
+.new_trends .trend_section:nth-child(7) {
+    background-image: url("../images/blog-7.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(8) {
+    background-image: url("../images/blog-8.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(9) {
+    background-image: url("../images/blog-9.jpg");
+    background-repeat: no-repeat;
+}
+/* =============== End New Trends =============== */
+/* =============== Start Footer =============== */
+footer {
+    padding: 70px 0 20px;
+    background: #000;
+}
+
+footer .footer_data img:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+footer .footer_data .payment {
+    margin-top: 50px;
+}
+
+footer .footer_data p {
+    color: #b7b7b7; 
+}
+
+footer .footer_data:nth-child(1) p {
+    width: 80%;
+}
+
+footer .footer_data h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer .footer_data ul {
+    padding: 0;
+}
+
+footer .footer_data ul a {
+    color: #b7b7b7;
+    text-decoration: none;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+footer .footer_data ul a::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0%;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+footer .footer_data ul a:hover::after {
+    width: 100%;
+}
+
+footer .footer_data .inputField {
+    position: relative;
+}
+
+footer .footer_data input {
+    margin-top: 50px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+footer .footer_data i {
+    position: absolute;
+    color: #b7b7b7;
+    font-size: 20px;
+    margin: 55px 0 0 -40px;
+}
+
+footer .copyRightFooter {
+    padding-top: 20px;
+    border-top: 0.2px solid #b7b7b7;
+}
+
+footer .copyRightFooter p {
+    color: #b7b7b7;
+}
+
+footer .copyRightFooter span,
+footer .copyRightFooter i {
+    color: #e53637;
+}
+/* =============== End Footer =============== */
+/* =====#####=====#####===== Start Responsive media queries =====#####=====#####===== */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    /* =============== Start New Trends =============== */
+    .new_trends {
+        margin-bottom: 50px;
+    }
+    
+    .new_trends .trend_section .trend_data {
+        margin: 230px 10px 0 10px;
+    }
+    /* =============== End New Trends =============== */
+    /* =============== Start Footer =============== */
+    footer {
+        padding: 60px 0 20px;
+    }
+
+    footer .footer_data ul a {
+        font-size: 14px;
+    }
+    /* =============== End Footer =============== */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    /* =============== Start navbar =============== */
+    nav {
+        padding: 10px 20px !important;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        margin-top: -10px;
+    }
+
+    .navbar-brand img {
+        height: 20px;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #000;
+    }
+
+    .navbar-collapse {
+        padding-left: 20px;
+    }
+
+    .navbar-collapse form {
+        padding-left: 30px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link.active::after {
+        width: 30%;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover::after{
+        width: 30%;
+    }
+    /* =============== End navbar =============== */
+    /* =============== Start New Trends =============== */
+    .new_trends {
+        margin: 20px 0 30px;
+    }
+
+    .new_trends .trend_section {
+        margin-bottom: 40px;
+    }
+
+    .new_trends .trend_section .trend_data {
+        margin: 230px 0px 0 0px;
+    }
+    /* =============== End New Trends =============== */
+    /* =============== Start Footer =============== */
+    footer .footer_data .payment {
+        margin-bottom: 30px;
+    }
+
+    footer .footer_data:nth-child(1) p {
+        width: 100%;
+    }
+
+    footer .footer_data ul a {
+        font-size: 17px;
+    }
+    /* =============== End Footer =============== */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    /* =============== Start main =============== */
+    main {
+        padding: 120px 0;
+        background-position: center;
+    }
+
+    main h1 {
+        font-size: 40px;
+    }
+    /* =============== End main =============== */
+    /* =============== Start New Trends =============== */
+    .new_trends {
+        margin: -50px 0 60px;
+    }
+
+    .new_trends .trend_section {
+        margin-bottom: 40px;
+        background-size: cover;
+    }
+
+    .new_trends .trend_section .trend_data {
+        margin: 230px 0px 0px 0px;
+    }
+    /* =============== End New Trends =============== */
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* =============== Start New Trends =============== */
+    .new_trends {
+        margin: -50px 0 60px;
+        padding-top: 40px;
+    }
+
+    .new_trends .trend_section {
+        margin-bottom: 40px;
+        background-position: center center;
+    }
+
+    .new_trends .trend_section .trend_data {
+        margin: 230px 0px 0px 0px;
+    }
+    /* =============== End New Trends =============== */
+}
+
+
+
+
+
+

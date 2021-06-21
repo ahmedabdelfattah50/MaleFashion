@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Out</title>
+    <!-- =============== FontAwsome =============== -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- =============== style files =============== -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/check_out.css">
+</head>
+<body> 
+    <!-- =============== Start navbar =============== -->
+    <nav class="navbar navbar-expand-lg d-flex align-items-end">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="shopping cart.html">Shopping Cart</a>
+                            <a class="dropdown-item" href="#">Check Out</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about us.html">About Us</a>
+                            <a class="dropdown-item" href="shopping cart.html">Shopping Cart</a>
+                            <a class="dropdown-item" href="#">Check Out</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html">Contacts</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="icons_chart row d-flex align-items-center justify-content-between">    
+                        <i class="fas fa-search"></i>
+                        <i class="far fa-heart"></i>              
+                        <i class="fas fa-shopping-bag"></i><span>$0.00</span>      
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- =============== End navbar =============== -->
+    <!-- =============== Start header =============== -->
+    <header>
+        <div class="container">
+            <h2>Check Out</h2>
+            <div class="page_link">
+                <a href="index.html">Home <i class="fas fa-chevron-right"></i></a>
+                <a href="index.html">Shop <i class="fas fa-chevron-right"></i></a>
+                <span>Check Out</span>
+            </div>
+        </div>
+    </header>
+    <!-- =============== End header =============== -->
+    <!-- =============== Start main =============== -->
+    <main>
+        <div class="container">
+            <div class="row total_cart justify-content-between">
+                <div class="left_cart col-lg-8">
+                    <p class="alert_para"><i class="fas fa-tag"></i> Have a coupon? Click <a href="#">here</a> to enter your code</p>
+                    <form>
+                        <h5>BILLING DETAILS</h5>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Fist Name<span>*</span></label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Last Name<span>*</span></label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress">Country<span>*</span></label>
+                          <input type="text" class="form-control" id="inputAddress">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Address<span>*</span></label>
+                          <input type="text" class="form-control mb-3" placeholder="Street Address">
+                          <input type="text" class="form-control" placeholder="Apartment, suite, unite ect (optional)">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Town/City<span>*</span></label>
+                            <input type="text" class="form-control" id="inputAddress">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Country/State<span>*</span></label>
+                            <input type="text" class="form-control" id="inputAddress">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Postcode / ZIP<span>*</span></label>
+                            <input type="text" class="form-control" id="inputAddress">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Phone<span>*</span></label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4">Email<span>*</span></label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">Check me out</label>
+                            </div>
+                            <p>Create an account by entering the information below. If you are a returning customer please login at the top of the page</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Account Password<span>*</span></label>
+                            <input type="text" class="form-control" id="inputAddress">
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">Note about your order, e.g, special noe for delivery</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress">Order notes<span>*</span></label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Notes about your order, e.g. special notes for delivery">
+                        </div>
+                    </form>
+                </div>
+                <div class="right_cart col-lg-4">
+                    <div class="cart_amount d-flex flex-column">
+                        <h2>YOUR ORDER</h2>
+                        <div class="d-flex justify-content-between">
+                            <p>Product</p>
+                            <span>Total</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>01. Vanilla salted caramel</p>
+                            <span>$ 300.0
+                            </span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>02. German chocolate</p>
+                            <span>$ 170.0</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>03. Sweet autumn</p>
+                            <span>$ 170.0</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>04. Cluten free mini dozen</p>
+                            <span>$ 110.0</span>
+                        </div>
+                        <div class="pro_amount d-flex">
+                            <p>Subtotal</p>
+                            <span>$ 169.50</span>
+                        </div>
+                        <div class="pro_amount d-flex">
+                            <p>Total</p>
+                            <span>$ 169.50</span>
+                        </div>
+                        <button>PROCEED TO CHECKOUT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- =============== End main =============== --> 
+    <!-- =============== Start Footer =============== -->
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-md-around">
+                <div class="footer_data col-lg-4 col-md-5">
+                    <img src="images/footer-logo.png" alt="">
+                    <p>The customer is at the heart of our unique business model, which includes design.</p>
+                    <img src="images/payment.png" alt="" class="payment">
+                </div>
+                <div class="footer_data col-lg-2 col-md-4">
+                    <h2>SHOPPING</h2>
+                    <ul class="d-flex flex-column">
+                        <a href="#">Clothing Store</a>
+                        <a href="#">Trending Shoes</a>
+                        <a href="#">Accessories</a>
+                        <a href="#">Sale</a>
+                    </ul>
+                </div>
+                <div class="footer_data col-lg-2 col-md-5">
+                    <h2>SHOPPING</h2>
+                    <ul class="d-flex flex-column">
+                        <a href="#">Contact Us</a>
+                        <a href="#">Payment Methods</a>
+                        <a href="#">Delivary</a>
+                        <a href="#">Return & Exchanges</a>
+                    </ul>
+                </div>
+                <div class="footer_data col-lg-4 col-md-4">
+                    <h2>NEWLETTER</h2>
+                    <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                    <div class="inputField">
+                        <input type="email" placeholder="Your email">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copyRightFooter d-flex justify-content-center">
+                <p>Copyright &copy; 2020 All rights reserved | This template is made with <i class="far fa-heart"></i> by <span>Ahmed Abdel-Fattah</span></p>
+            </div>
+        </div>
+    </footer>
+    <!-- =============== End Footer =============== -->
+    <!-- =============== script files =============== -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

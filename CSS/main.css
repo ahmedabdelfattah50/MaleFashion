@@ -1,0 +1,1160 @@
+/* =============== Start navbar =============== */
+nav {
+    background: #fff;
+    padding: 20px 0 !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #111;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 0 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    border: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    top: 100%;
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0%;
+    top: 100%;
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    top: 100%; 
+    left: 0px;
+    right: 100%;
+    background: #e53637;
+}
+
+.dropdown-menu {
+    background: #000;
+    border: none;
+}
+
+.dropdown-menu a {
+    color: #fff;
+}
+.icons_chart {
+    width: 150px;
+}
+
+.icons_chart i,
+.icons_chart span {
+    font-size: 20px;
+}
+
+.icons_chart i:hover {
+    font-weight: 900;
+    color: #e53637;
+    cursor: pointer;
+}
+
+.icons_chart span {
+    font-weight: 600;
+}
+/* =============== End navbar =============== */
+/* =============== Start main =============== */
+.carousel-inner {
+    height: 635px;   
+    width: 100%;
+}
+
+.slider_1 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/hero-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slider_2 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/hero-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-caption,
+.carousel-caption div {
+    height: 100%;
+}
+
+.carousel-caption {
+    color: #000;
+}
+
+.carousel-caption h6 {
+    color: #e53637;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.carousel-caption h1 ,
+.carousel-caption h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 50%;
+    line-height: 60px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    color: #3d3d3d;
+    width: 50%;
+    line-height: 35px;
+}
+
+.carousel-caption button {
+    background: #000;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 20px 40px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+
+.carousel-caption button i {
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+} 
+
+.carousel-caption button:hover {
+    box-shadow: 0 0 20px rgb(114, 113, 113);
+}
+
+.carousel-caption button:hover i {
+    margin-left: 30px;
+} 
+
+.carousel-caption ul a {
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-prev-icon .fa-chevron-left,
+.carousel-control-next-icon .fa-chevron-right {
+    color: #000 !important;
+} 
+/* =============== End main =============== */
+/* =============== Start products_collection =============== */
+.products_collection {
+    padding: 80px 0;
+}
+
+.products_collection h2 {
+    color: #000;
+    font-size: 35px;
+}
+
+.products_collection .collectionItem {
+    position: relative;
+}
+
+.products_collection .collectionItem .info {
+    position: absolute;
+}
+
+.first_collection .info {
+    margin-right: 350px;
+    width: 40%;
+}
+
+.collectionItem .info a {
+    color: #000;
+    cursor: pointer;
+    letter-spacing: 5px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.collectionItem .info a::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #000;
+    top: 100%;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.products_collection .collectionItem:hover .info a::after {
+    width: 30%;
+    background: #e53637;
+}
+
+.second_collection {
+    margin-top: -70px;
+}
+
+.second_collection img {
+    width: 85%;
+}
+
+.second_collection .info {
+    margin-top: 83%;
+}
+
+.last_collection {
+    margin-top: -300px;
+}
+
+.last_collection img {
+    width: 55%;
+}
+
+.last_collection .info{
+    margin-right: 350px;
+    width: 30%;
+}
+/* =============== End products_collection =============== */
+/* =============== Start nav products =============== */
+.nav_products {
+    padding-bottom: 40px;
+}
+
+.nav_products .nav-pills {
+   padding: 0 0 20px; 
+}
+
+.nav_products .nav-pills .nav-link {
+    color: #b7b7b7;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.nav_products .nav-pills .nav-link.active {
+    background: none;
+    color: #000;
+}
+
+.nav_products .tab-content .card {
+    border: none;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.nav_products .tab-content .card .card-body {
+    padding-left: 0;
+}
+
+.nav_products .card .side_card {
+    position: absolute;
+    left: 88%;
+    transition: 0.3s ease-in-out;
+    height: 64%;
+}
+
+.side_card ul {
+    height: 100%;
+    margin-top: 30px;
+}
+
+.side_card ul i {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.side_card ul i:nth-child(1):hover {
+    font-weight: 600;
+    color: #e53637;
+}
+
+.side_card ul i:nth-child(2):hover {
+    font-weight: 600;
+    color: #3668e5;
+}
+
+.side_card ul i:nth-child(3):hover {
+    font-weight: 600;
+    color: #e536d6;
+}
+
+.nav_products .tab-content .card:hover .side_card {
+    left: 65%;
+} 
+
+.product_name {
+    font-weight: 500;
+    visibility:visible;
+    margin-bottom: 5px;
+}
+
+.link_add_cart {
+    position: absolute;
+    visibility:hidden;
+    font-size: 17px;
+    font-weight: 500;
+    color: #e53637 !important;
+    text-decoration: none !important;   
+}
+
+.nav_products .tab-content .card:hover .product_name {
+    visibility:hidden;
+}
+
+.nav_products .tab-content .card:hover .link_add_cart {
+    visibility:visible;
+}
+
+.list_pro_stars {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.list_pro_stars i {
+    font-size: 13px;
+}
+
+.card .card-body span {
+    font-weight: 700;
+}
+
+/* =============== End nav products =============== */
+/* =============== Start offer =============== */
+.offer {
+    padding: 100px 0;
+    background: #f3f2ee;
+}
+
+.offer .white_area {
+    background: #fff;
+    padding: 70px 0;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin-left: -270px;
+}
+
+.offer .white_area h2 {
+    position: absolute;
+    width: 100%; 
+}
+
+.offer .white_area h2:nth-child(1) {
+    margin: 10px 0 20px 280px;  
+}
+
+.offer .white_area h2:nth-child(2) {
+    margin: 60px 0 20px 280px;
+}
+
+.offer .white_area h2:nth-child(3) {
+    margin: 110px 0 20px 280px;
+}
+
+.offer_section img {
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+.offer_section img:hover {
+    transform: scale(1.2,1.2);
+}
+
+.offer_section .img_before {
+    position: absolute;
+    color: #fff;
+    background: #000; 
+    width: 50%;
+    height: 120px; 
+    width: 120px; 
+    border-radius: 50%;
+    z-index: 5;
+    margin: -20px 0 0 200px;
+    font-size: 20px;
+}
+
+.offer_section .img_before span:nth-child(2) {
+    font-weight: 700;
+}
+
+.offer_section:nth-child(3) h6 {
+    color: #e53637;
+    letter-spacing: 1px;
+}
+
+.offer_section:nth-child(3) h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.offer_section:nth-child(3) .time span {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.days .spTime1,
+.hours .spTime2,
+.minuts .spTime3 {
+    position: relative;
+}
+
+.days .spTime1::after,
+.hours .spTime2::after,
+.minuts .spTime3::after {
+    position: absolute;
+    content: ':';
+    left: 65px;
+    font-weight: 500;
+}
+
+.offer_section button {
+    background: #000;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    padding: 15px 40px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.offer_section button i {
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+} 
+
+.offer_section button:hover {
+    box-shadow: 0 0 20px rgb(114, 113, 113);
+}
+
+.offer_section button:hover i {
+    margin-left: 30px;
+} 
+/* =============== End offer =============== */
+/* =============== Start Instagram =============== */
+.instagram {
+    padding: 100px 0;
+}
+
+.instagram .info {
+    margin-left: -70px;
+}
+
+.instagram .info h2 {
+    color: #000;
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.instagram .info p {
+    width: 340px;
+    color: #3d3d3d;
+}
+
+.instagram .info span {
+    color: #e53637;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 50px;
+}
+/* =============== End Instagram =============== */
+/* =============== Start New Trends =============== */
+.new_trends {
+    margin-bottom: 100px;
+}
+
+.trendsHeader p {
+    color: #e53637;
+    font-weight: 600;
+}
+
+.trendsHeader h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.new_trends .trend_section .trend_data {
+    background: #fff;
+    padding: 30px 40px;
+    margin-right: 20px;
+    margin: 230px 40px 0 20px;
+}
+
+.new_trends .trend_section .trend_data h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.new_trends .trend_section .trend_data a {
+    color: #000;
+    cursor: pointer;
+    letter-spacing: 5px;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.new_trends .trend_section .trend_data a::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #000;
+    top: 100%;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.new_trends .trend_section .trend_data:hover a::after {
+    width: 35%;
+    background: #e53637;
+}
+
+.new_trends .trend_section:nth-child(1) {
+    background-image: url("../images/blog-1.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(2) {
+    background-image: url("../images/blog-2.jpg");
+    background-repeat: no-repeat;
+}
+
+.new_trends .trend_section:nth-child(3) {
+    background-image: url("../images/blog-3.jpg");
+    background-repeat: no-repeat;
+}
+/* =============== End New Trends =============== */
+/* =============== Start Footer =============== */
+footer {
+    padding: 70px 0 20px;
+    background: #000;
+}
+
+footer .footer_data img:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+footer .footer_data .payment {
+    margin-top: 50px;
+}
+
+footer .footer_data p {
+    color: #b7b7b7; 
+}
+
+footer .footer_data:nth-child(1) p {
+    width: 80%;
+}
+
+footer .footer_data h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer .footer_data ul {
+    padding: 0;
+}
+
+footer .footer_data ul a {
+    color: #b7b7b7;
+    text-decoration: none;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+footer .footer_data ul a::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0%;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+footer .footer_data ul a:hover::after {
+    width: 100%;
+}
+
+footer .footer_data .inputField {
+    position: relative;
+}
+
+footer .footer_data input {
+    margin-top: 50px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+footer .footer_data i {
+    position: absolute;
+    color: #b7b7b7;
+    font-size: 20px;
+    margin: 55px 0 0 -40px;
+}
+
+footer .copyRightFooter {
+    padding-top: 20px;
+    border-top: 0.2px solid #b7b7b7;
+}
+
+footer .copyRightFooter p {
+    color: #b7b7b7;
+}
+
+footer .copyRightFooter span,
+footer .copyRightFooter i {
+    color: #e53637;
+}
+/* =============== End Footer =============== */
+/* =====#####=====#####===== Start Responsive media queries =====#####=====#####===== */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    /* =============== Start main =============== */
+    .slider_1, 
+    .slider_2 {
+        background-position: center;
+    }
+
+    .carousel-caption h1,
+    .carousel-caption h2 {
+        font-size: 45px;
+        width: 70%;
+    }
+
+    .carousel-caption p {
+        width: 60%;
+    }
+
+    .carousel-caption button {
+        padding: 15px 40px;
+    }
+    /* =============== End main =============== */
+    /* =============== Start products_collection =============== */
+    .products_collection h2 {
+        color: #000;
+        font-size: 35px;
+    }
+
+    .first_collection .info {
+        width: 45%;
+    }
+
+    .second_collection {
+        margin-top: -70px;
+    }
+
+    .second_collection img {
+        width: 80%;
+    }
+
+    .second_collection .info {
+        margin-top: 76%;
+    }
+
+    .last_collection {
+        margin-top: -230px;
+    }
+
+    .last_collection .info{
+        margin-right: 280px;
+        width: 32%;
+    }
+    /* =============== End products_collection =============== */
+    /* =============== Start offer =============== */
+    .offer .white_area {
+        width: 420px;
+    }
+
+    .offer .white_area h2 {
+        font-size: 30px;
+    }
+
+    .offer_section img:hover {
+        transform: scale(1.1,1.1);
+    }
+
+    .offer_section:nth-child(3) h2 {
+        font-size: 35px;
+    }
+
+    .offer_section:nth-child(3) .time span {
+        font-size: 27px;
+    }
+
+    .days .spTime1::after,
+    .hours .spTime2::after,
+    .minuts .spTime3::after {
+        left: 50px;
+    }
+    /* =============== End offer =============== */
+    /* =============== Start Instagram =============== */
+    .instagram .info {
+        margin-left: -150px;
+    }
+    /* =============== End Instagram =============== */
+    /* =============== Start New Trends =============== */
+    .new_trends {
+        margin-bottom: 50px;
+    }
+    
+    .new_trends .trend_section .trend_data {
+        margin: 230px 10px 0 10px;
+    }
+    /* =============== End New Trends =============== */
+    /* =============== Start Footer =============== */
+    footer {
+        padding: 60px 0 20px;
+    }
+
+    footer .footer_data ul a {
+        font-size: 14px;
+    }
+    /* =============== End Footer =============== */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    /* =============== Start navbar =============== */
+    nav {
+        padding: 10px 20px !important;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        margin-top: -10px;
+    }
+
+    .navbar-brand img {
+        height: 20px;
+    }
+
+    .navbar-toggler {
+        border: 2px solid #000;
+    }
+
+    .navbar-collapse {
+        padding-left: 20px;
+    }
+
+    .navbar-collapse form {
+        padding-left: 30px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link.active::after {
+        width: 30%;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover::after{
+        width: 30%;
+    }
+    /* =============== End navbar =============== */
+    /* =============== Start main =============== */
+    .carousel-caption h1,
+    .carousel-caption h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .carousel-caption p {
+        width: 70%;
+    }
+
+    .carousel-caption button {
+        padding: 15px 30px;
+    }
+    /* =============== End main =============== */
+    /* =============== Start products_collection =============== */
+    .products_collection h2 {
+        font-size: 35px;
+    }
+
+    .first_collection .info {
+        width: 70%;
+    }
+
+    .second_collection {
+        margin-top: 40px;
+    }
+
+    .second_collection img {
+        width: 90%;
+    }
+
+    .second_collection .info {
+        margin-top: 85%;
+    }
+
+    .last_collection {
+        margin-top: -250px;
+    }
+
+    .last_collection img {
+        width: 75%;
+    }
+
+    .last_collection .info{
+        margin: 270px 50px 0 0;
+        width: 50%;
+    }
+    /* =============== End products_collection =============== */
+    /* =============== Start nav products =============== */
+    .first_product_row {
+        justify-content: center !important;
+    }
+
+    .nav_products .tab-content .card {
+        margin: 0 20px 20px;
+    }
+    /* =============== End nav products =============== */
+    /* =============== Start offer =============== */
+    .offer_section:nth-child(3) {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .offer_section:nth-child(3) h2 {       
+        font-size: 40px;
+    }
+
+    .offer_section:nth-child(3) .time span {
+        font-size: 30px;
+    }
+
+    .days .spTime1::after,
+    .hours .spTime2::after,
+    .minuts .spTime3::after {
+        left: 90px;
+    }
+    /* =============== End offer =============== */
+    /* =============== Start Instagram =============== */
+    .InstGalleryImgs {
+        margin-left: 0 !important;
+    }
+
+    .instagram .info {
+        margin-left:85px;
+        margin: 20px 0 0 85px;
+        padding-right: 0;
+    }
+
+    .instagram .info p {
+        width: 95%;
+        font-size: 20px;
+    } 
+    /* =============== End Instagram =============== */
+    /* =============== Start New Trends =============== */
+    .new_trends {
+        margin: -50px 0 60px;
+    }
+
+    .new_trends .trend_section {
+        margin-bottom: 40px;
+    }
+
+    .new_trends .trend_section .trend_data {
+        margin: 230px 0px 0 0px;
+    }
+    /* =============== End New Trends =============== */
+    /* =============== Start Footer =============== */
+    footer .footer_data .payment {
+        margin-bottom: 30px;
+    }
+
+    footer .footer_data:nth-child(1) p {
+        width: 100%;
+    }
+
+    footer .footer_data ul a {
+        font-size: 17px;
+    }
+    /* =============== End Footer =============== */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    /* =============== Start main =============== */
+    .carousel-caption h1,
+    .carousel-caption h2 {
+        font-size: 35px;
+        width: 100%;
+        line-height: 40px;
+    }
+
+    .carousel-caption p {
+        width: 80%;
+    }
+
+    .carousel-caption button {
+        padding: 10px 30px;
+    }
+    /* =============== End main =============== */
+    /* =============== Start products_collection =============== */
+    .products_collection h2 {
+        font-size: 30px;
+    }
+
+    .first_collection .info {
+        width: 50%;
+        margin-right: 250px;
+    }
+
+    .first_collection img {
+        width: 70%;
+    }
+
+    .second_collection {
+        margin-top: 40px;
+    }
+
+    .second_collection img {
+        width: 70%;
+    }
+
+    .second_collection .info {
+        margin: 180px 0 0 320px;
+    }
+
+    .last_collection {
+        margin-top: 40px;
+    }
+
+    .last_collection img {
+        width: 70%;
+    }
+
+    .last_collection .info{
+        margin: 0px 310px 0 0;
+        width: 32%;
+    }
+    /* =============== End products_collection =============== */
+    /* =============== Start offer =============== */
+    .offer_section .white_area {
+        margin-left: -170px;
+        margin-bottom: 50px;
+    }
+    .offer_section:nth-child(2) .img_before {
+        margin-left: 270px;
+    }
+
+    .offer_section:nth-child(2) img {
+        margin-left: 70px;
+    }
+    /* =============== End offer =============== */
+    /* =============== Start New Trends =============== */
+    .new_trends {
+        margin: -50px 0 60px;
+    }
+
+    .new_trends .trend_section {
+        margin-bottom: 40px;
+        background-size: cover;
+    }
+
+    .new_trends .trend_section .trend_data {
+        margin: 230px 0px 0px 0px;
+    }
+    /* =============== End New Trends =============== */
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* =============== Start main =============== */
+
+    main {
+        padding: 10px 0;
+        background: rgb(240, 238, 238);
+    }
+
+    .slider_1, 
+    .slider_2 {
+        background-image: none;
+    }
+
+    .carousel-caption h6 {
+        font-size: 17px;
+    }
+    
+    .carousel-caption h1,
+    .carousel-caption h2 {
+        font-size: 25px;
+        width: 100%;
+        line-height: 30px;
+    }
+
+    .carousel-caption p {
+        width: 99%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .carousel-caption button {
+        padding: 10px 20px;
+    }
+    /* =============== End main =============== */
+    /* =============== Start products_collection =============== */
+    .products_collection {
+        padding: 110px 0;
+    }
+
+    .products_collection h2 {
+        font-size: 20px;
+    }
+
+    .first_collection .info {
+        width: 50%;
+        margin: -270px 100px 0 0;
+    }
+
+    .second_collection {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .second_collection .info {
+        margin: 140px 0 0 145px;
+    }
+
+    .last_collection {
+        margin-top: 40px;
+    }
+
+    .first_collection img,
+    .second_collection img,
+    .last_collection img {
+        width: 80%;
+    }
+
+    .last_collection .info{
+        margin: 200px 100px 0 0;
+        width: 50%;
+    }
+    /* =============== End products_collection =============== */
+    /* =============== Start offer =============== */
+    .offer {
+        padding: 60px 0;
+    }
+
+    .offer_section .white_area {
+        margin-left: -240px;
+        margin-bottom: 50px;
+    }
+
+    .offer_section .white_area h2 {
+        width: 215px !important;
+    }
+
+    .offer_section:nth-child(2) .img_before {
+        margin-left: 50%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .offer_section:nth-child(2) img {
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    .offer_section:nth-child(3) h2 {
+        font-size: 25px;
+    }
+    
+    .offer_section .time {
+        flex-flow: row;
+    }
+
+    .offer_section:nth-child(3) .time span {
+        font-size: 25px;
+    }
+
+    .offer_section:nth-child(3) .time p {
+        font-size: 15px;
+    }
+
+    .offer_section:nth-child(3) .time span::after {
+        margin-left: -40px;
+    }
+    /* =============== End offer =============== */
+    /* =============== Start Instagram =============== */
+    .instagram {
+        padding: 60px 0;
+    }   
+
+    .instagram .gallery div {
+        justify-content: center;
+    }
+
+    .instagram .info {
+        margin-left: 0;
+    }
+    /* =============== End Instagram =============== */
+    /* =============== Start New Trends =============== */
+    .new_trends {
+        margin: -50px 0 60px;
+        padding-top: 40px;
+    }
+
+    .new_trends .trend_section {
+        margin-bottom: 40px;
+        /* background-size: cover; */
+        background-position: center center;
+        /* margin: 40px 20px; */
+    }
+
+    .new_trends .trend_section .trend_data {
+        margin: 230px 0px 0px 0px;
+    }
+    /* =============== End New Trends =============== */
+}
+
+
+
+
+
+
